@@ -1,14 +1,16 @@
-import au from "./images/aussie.jpg";
+import au from "./images/aussie.png";
+import fuji from "./images/fuji.png";
+import norway from "./images/norway.png";
 
 export default [
   {
     id: 1,
-    img: "https://source.unsplash.com/WLxQvbMyfas",
+    img: fuji,
     country: "Japan",
     location: "Mount Fuji",
     date: {
-      startDate: "asdsa",
-      endDate: "sadsa",
+      startDate: "12 Jan, 2021",
+      endDate: "24 Jan, 2021",
     },
     googleMaps:
       "https://www.google.com/maps/d/embed?mid=1W9AtcwnYAqP1yVHr5YjhwmQa0eM&ie=UTF8&hl=en&msa=0&ll=35.36525600000001%2C138.737411&spn=0.09799%2C0.145912&z=12&output=embed",
@@ -33,7 +35,7 @@ export default [
 
   {
     id: 3,
-    img: "https://source.unsplash.com/3PeSjpLVtLg",
+    img: norway,
     country: "Norway",
     location: "Geirangerfjord",
     date: {

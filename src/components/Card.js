@@ -15,13 +15,11 @@ const Card = (props) => {
               View on GoogleMaps
             </a>
           </div>
-          <div className={Styles.locationInfo}>
-            <h2>{location}</h2>
-            <p className={Styles.date}>
-              {date.startDate} - {date.endDate}
-            </p>
-            <p className={Styles.infoText}>{infoText}</p>
-          </div>
+          <h2>{location}</h2>
+          <p className={Styles.date}>
+            {date.startDate} - {date.endDate}
+          </p>
+          <p className={Styles.infoText}>{infoText}</p>
         </div>
       </div>
     </div>
